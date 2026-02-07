@@ -1,0 +1,29 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "learning backend",
+  "homepage": "https://github.com/koushik-0204/MY-APP#readme",
+  "bugs": {
+    "url": "https://github.com/koushik-0204/MY-APP/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koushik-0204/MY-APP.git"
+  },
+  "license": "ISC",
+  "author": "koushik",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Backend/source/index.js",
+    "dev": "nodemon Backend/source/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.1",
+    "nodemon": "^3.1.11"
+  }
+}
